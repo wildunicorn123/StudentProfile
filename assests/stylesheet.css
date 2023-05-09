@@ -1,0 +1,75 @@
+.row{
+    width:100;
+    margin:0 0 1em 0;
+    padding:0 2.5em;
+}
+.header1{
+background-image:url(./clouds-blue-sky-digital-painting-260nw-497771728.webp);
+padding:1em 2em;
+left: -70;
+color:black;
+border-bottom: 1px;
+margin-top: 100px;
+
+}
+.btn-btn-submit {
+    font-size: pxtoem(17, 16);
+    display: inline-block;
+    padding: 0.74em 1.5em;
+    margin: 1.5em 0 0;
+    color: black;
+    border-width: 0 0 0 0;
+    border-bottom: 5px solid;
+    text-transform: uppercase;
+}
+.footer{
+    text-align:center;
+    padding: 10px 10px 10px 10px;
+}
+.img3{
+    width:20px;
+    height:20px;
+    border-radius: 20px;
+}
+.img5{
+    width:20px;
+    height:20;
+    border-radius: 20px;
+}
+.img6{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+.image1{
+    width: 40px;
+    height: 40px;
+    border-radius:40px;
+    text-align:center;
+}
+.Form_body{
+    max-width: 510px;
+    min-width: 324px;
+    margin: 50px auto 0px;
+    background-color: white;
+    border: 2px lightgray;
+    border-bottom: 3px solid;
+}
+.ulform{
+    margin: 0;
+    padding: 2em;
+    list-style: none;
+}
+.li {
+    margin: 0 0 0.25em 0;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    }
+.rbody{
+    background-color: lightblue;
+}
+.Form_body:hover {
+    box-shadow: 2px 2px 2px rgb(249, 5, 167);
+    scale: 0.99;
+  }
