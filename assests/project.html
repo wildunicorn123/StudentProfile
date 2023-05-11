@@ -15,6 +15,7 @@
 .footer{
     text-align:center;
     padding: 10px 10px 10px 10px;
+    margin-top: 50px;
 }
 .img3{
     width:20px;
@@ -46,6 +47,23 @@
 }
 .images{
     text-align:center;
+}
+.carousel-item{
+    height: 450px!important;
+}
+.bg-light{
+     margin-left:400px!important;
+}
+.carousel-item {
+   height:100%!important;
+    width: 100%!important;
+    border: 2px;
+    
+}
+h2{
+    text-align:center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 </style>
 <body>
@@ -84,21 +102,46 @@
                 </nav>
                 <!--Nav bar done-->
             </header>
-                <div class="images">
-                <div>
-                    <a href="https://loquacious-bunny-fc0a3f.netlify.app/"><img src="./Phantom Troupe - Google Chrome 2023_05_10 15_03_21.png" class="phan"></a>
-                </div>
-                <div>
-                    <a href="https://github.com/wildunicorn123/Okaysss.git"><img src="./Webpagething - Google Chrome 2023_05_10 15_20_35.png" class="phan"> </a>
-                </div>
-                <div>
-                    <a href="https://vocal-dango-f219dd.netlify.app/"><img src="./Webpagething - Google Chrome 2023_05_10 15_22_01.png" class="phan"></a>
-                </div>
-                <div>
-                    <a href="https://github.com/wildunicorn123/contactpage.git"><img src="./Contact Page - Google Chrome 2023_05_10 15_28_10.png"  class="phan"></a>
-                </div>
-                <div>
-                    <a href="https://steady-empanada-1713b6.netlify.app/"><img src="./Profile - Google Chrome 2023_05_10 16_15_28.png" class="phan"></a>
+            <h2>Projects</h2>
+            <div class="bg-light w-50 p-450">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2" aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3" aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4" aria-current="true"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://loquacious-bunny-fc0a3f.netlify.app/"><img src="./Phantom Troupe - Google Chrome 2023_05_10 15_03_21.png"
+                                class="test-img d-block  d-flex justify-content-center w-100" alt="picture" loading="lazy"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://github.com/wildunicorn123/Okaysss.git"><img src="./Webpagething - Google Chrome 2023_05_10 15_20_35.png" class=" test-img  d-block w-100 d-flex justify-content-center" alt="..." loading="lazy"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://vocal-dango-f219dd.netlify.app/"><img src="./Webpagething - Google Chrome 2023_05_10 15_22_01.png" class="test-img  d-block w-100 d-flex justify-content-center" alt="..." loading="lazy"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://steady-empanada-1713b6.netlify.app/"><img src="./Profile - Google Chrome 2023_05_10 16_15_28.png" alt="..." class="test-img  d-block w-100 d-flex justify-content-center" loading="lazy"></a>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
                 </div>
             <footer class="footer">

@@ -52,7 +52,7 @@ border-radius:30px;
     max-width: 510px;
     min-width: 324px;
     margin: 50px auto 0px;
-    background-color: white;
+    background-color:lightblue;
     border: 2px lightgray;
     border-bottom: 3px solid;
     border-radius:30px;
@@ -79,4 +79,7 @@ border-radius:30px;
   }
 h1{
     text-align:center;
+}
+body{
+    background-color: rgb(27, 130, 241);
 }
