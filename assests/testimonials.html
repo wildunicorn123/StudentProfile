@@ -17,6 +17,14 @@
     padding: 10px 10px 10px 10px;
     margin-top: 250px;
 }
+@media screen and (max-width: 400px) {
+    .footer{
+        text-align:center;
+        padding:10px 10px 10px 10px;
+        margin-top:250px;
+    }
+}
+
 .img3{
     width:20px;
     height:20px;
@@ -38,20 +46,31 @@
     border-radius:40px;
     text-align:center;
 }
+@media screen and (max-width: 400px) {
+    .grid-container {
+    display: grid;
+    grid-template-columns:minmax(0,4fr)minmax(0,1fr);
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+}
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns:auto auto auto;
     gap: 10px;
     background-color: white;
     padding: 10px;
     margin-top: 100px;
+    text-align: center;
 }
 
 .grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     font-size: 30px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px 150px 20px;
 }
 .a1{
     height: 380px!important;
@@ -117,10 +136,17 @@
     color:black;
     margin-top: 100px;
 }
+@media screen and (max-width: 1200px){
+    .h2{
+    text-align: center;
+    color:black;
+    margin-top: 100px;
+    margin-left: 430px;
+}
+}
 </style>
 <body>
-    <main>
-        <header>
+    <header>
             <!--Begin nav-->
             <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
                 <div class="container-fluid">
@@ -154,40 +180,56 @@
                 </nav>
                 <!--Nav bar done-->
             </header>
-            <div class="h2">
-                <h2>TESTIMONIALS</h2>
-            </div>
-            <div class="grid-container">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-details">
-                    <p class="text-title"><img src="./C12 Ayesha Galant Class1 (3).JPG" class="a1" alt="a1" loading="lazy"></p>
-                    <p class="text-body">Ayesha</p>
-                    </div>
-                    <button class="card-button">"Amber is dedicated and very passionate about her work. Working together makes me motivated to go above and beyond to reach our goals and of course, having fun while doing so."</button>
-                    </div>
+            <main>
+                <div class="h2">
+                    <h2>TESTIMONIALS</h2>
+                </div>
+                <div class="grid-container">
                     <div class="card" style="width: 18rem;">
                         <div class="card-details">
-                        <p class="text-title"><img src="./C12 C1 Inam Nkabi (3).JPG" class="a1" alt="a1" loading="lazy"></p>
-                        <p class="text-body">Inam</p>
+                        <p class="text-title"><img src="./C12 Ayesha Galant Class1 (3).JPG" class="a1" alt="a1" loading="lazy"></p>
+                        <p class="text-body">Ayesha</p>
                         </div>
-                        <button class="card-button">Amber-Kaye is very conscientious and generous. She goes to great lengths to fully understand project requirements. This allows her to produce an effective product in a short timeframe.” Top qualities: Expert, Good Value, On Time</button>
+                        <button class="card-button">"Amber is dedicated and very passionate about her work. Working together makes me motivated to go above and beyond to reach our goals and of course, having fun while doing so."</button>
                         </div>
                         <div class="card" style="width: 18rem;">
                             <div class="card-details">
-                            <p class="text-title"><img src="./IMG_9863 (1).jpg" class="a1" alt="a1" loading="lazy"></p>
-                            <p class="text-body">Ethan</p>
+                            <p class="text-title"><img src="./C12 C1 Inam Nkabi (3).JPG" class="a1" alt="a1" loading="lazy"></p>
+                            <p class="text-body">Inam</p>
                             </div>
-                            <button class="card-button">Amber is smart and likes to know how things work and is goal-driven. She calls me "bestie" and has no problem asking for help when she needs it.</button>
+                            <button class="card-button">Amber-Kaye is very conscientious and generous. She goes to great lengths to fully understand project requirements. This allows her to produce an effective product in a short timeframe.” Top qualities: Expert, Good Value, On Time</button>
                             </div>
                             <div class="card" style="width: 18rem;">
                                 <div class="card-details">
-                                <p class="text-title"><img src="./19cd5c04-c746-49c1-9e4f-ad3b4179bd45.jpg" class="a1" alt="a1" loading="lazy"></p>
-                                <p class="text-body">Lisa</p>
+                                <p class="text-title"><img src="./IMG_9863 (1).jpg" class="a1" alt="a1" loading="lazy"></p>
+                                <p class="text-body">Ethan</p>
                                 </div>
-                                <button class="card-button">Amber is calm and patient. She takes pride in her work  and is very passionate. She is goal-driven and she is a hard worker. She is vibey and gets along with everyone . She is kind and its been a great experience with Amber.</button>
+                                <button class="card-button">Amber is smart and likes to know how things work and is goal-driven. She calls me "bestie" and has no problem asking for help when she needs it.</button>
                                 </div>
-                        </div>
-            <footer class="footer">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-details">
+                                    <p class="text-title"><img src="./19cd5c04-c746-49c1-9e4f-ad3b4179bd45.jpg" class="a1" alt="a1" loading="lazy"></p>
+                                    <p class="text-body">Lisa</p>
+                                    </div>
+                                    <button class="card-button">Amber is calm and patient. She takes pride in her work  and is very passionate. She is goal-driven and she is a hard worker. She is vibey and gets along with everyone . She is kind and its been a great experience with Amber.</button>
+                                    </div>
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-details">
+                                        <p class="text-title"><img src="./john-bruce-noad-portfolio-photo.jpg" class="a1" alt="a1" loading="lazy"></p>
+                                        <p class="text-body">John-Bruce</p>
+                                        </div>
+                                        <button class="card-button">I highly recommend Amber for any web development projects. Their exceptional skills, dedication, and eagerness to learn are truly impressive. She have a eye for design, a deep understanding of programming languages, and an ability to solve complex problems efficiently.</button>
+                                        </div>
+                                        <div class="card" style="width: 18rem;">
+                                            <div class="card-details">
+                                            <p class="text-title"><img src="./C12 Abdoelmaaliek Samaai (3).JPG" class="a1" alt="a1" loading="lazy"></p>
+                                            <p class="text-body">Abdoel-Maliek</p>
+                                            </div>
+                                            <button class="card-button">Amber: She is in general just a good independant person. She is supportive and vibrant in many ways. She will solve problems on her own and hardly give up. She just blends in and can communicate with every one. She is the type of person to help where she can.</button>
+                                            </div>
+                            </div>
+            </main>
+            <footer class="footer fixed-bottom">
                 <section>
                     <img src="./A.A (1).png" class="image1" load="lazy">
                     Amber-Kaye Africa &copy;Copyright 2023
@@ -196,6 +238,5 @@
                     <img src="./icons8-linkedin-circled.gif" class="img6" load="lazy">
                 </section>
             </footer>
-    </main>
 </body>
 </html>

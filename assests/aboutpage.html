@@ -90,6 +90,39 @@ li {
 .button:hover{
     background-color:rgb(49, 250, 237);
 }
+.text1{
+    text-align:center;
+}
+@media screen and (max-width: 1200px) {
+    .border{
+    width: 100%;
+    height: 310px;
+    float:right;
+    margin: 100px 0px 100px;
+    border-radius: 30px;
+    background:rgb(251, 252, 252);
+    box-shadow: 15px 15px 30px #06f7ff,
+                -15px -15px 30px #f3d2d2;
+}
+
+}
+@media screen and (max-width: 1200px) {
+    .button{
+    border:none!important;
+    padding: 12px 30px!important;
+    font-size:larger;
+    background-color:rgb(209, 225, 231) ;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    border-color: dodgerblue;
+    float:left;
+}
+.button:hover{
+    background-color:rgb(49, 250, 237);
+}
+
+}
     </style>
 </head>
 <body>
@@ -128,20 +161,20 @@ li {
                 </nav>
                 <!--Nav bar done-->
             </header>
-            <section>
-                <img src="./Screenshot_20230505_103824.jpg" class="image7" loading="lazy">
-                    <div class="border">
+            <section class="container-fluid">
+                <img src="./Screenshot_20230505_103824.jpg" class="img-fluid image7" loading="lazy">
+                    <div class=" container-fluid border">
                         <ul >
                             <li><h3> Personal info:</h3></li>
                             <li> <p> <b>Name:</b> Amber-Kaye Africa</p></li>
                             <li><p><b>Location:</b>Hanover Park</p></li>
                             <li><p><b>Willingness to relocate:</b>Yes</p></li>
                             <li><p><b>LinkkedIn:</b> <a href="https://www.linkedin.com/in/amber-kaye-africa-761195242"><img src="./icons8-linkedin-circled.gif" class="image9"></a></p></li>
-                            <li><p><b>GitHub:</b> <a href="https://github.com/wildunicorn123"><img src="./icons8-github.gif" class="image9"></a></p></li>
+                            <li><p><b>GitHub:</b> <a href="https://github.com/"><img src="./icons8-github.gif" class="image9"></a></p></li>
                         </ul>
                     </div>
             </section>
-            <div class="p-5 mb-4 bg-body-secondary rounded-3">
+            <div class="p-5 mb-4 bg-body-light rounded-3 fluid">
                 <div class="center">
                     <h2>My Techy-skillz</h2>
                     <div class="shift">
@@ -152,10 +185,31 @@ li {
                     </div>
                 </div>
             </div>
-                <div class="row align-items-md-stretch p-5 text-center">
+                <div class="row align-items-md-stretch p-5 text-center container-fluid">
                         <button class="button" style="width:auto"><a href="./DOC-20230220-WA0006.pdf"><h2 class="h2">Curriculum Vitae of Amber</h2></a></button>
                     </div>
-            <footer class="footer">
+                <div class="p-5 mb-10">
+                    <h3 class="text1">Soft Skills:</h3>
+                    <div class="mt-10">
+                        <h3 class="text">Hard-working</h3>
+                    <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 79%"></div>
+                      </div>
+                      <div class="mt-10">
+                        <h3 class="text">Team-player</h3>
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%"></div>
+                          </div>
+                      </div>
+                      <div class="mt-10">
+                        <h3 class="text">Punctuality</h3>
+                        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 65%"></div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            <footer class="footer fixed-bottom">
                 <section>
                     <img src="./A.A (1).png" class="image1">
                     Amber-Kaye Africa &copy;Copyright 2023

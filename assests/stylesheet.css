@@ -23,9 +23,19 @@ border-radius:30px;
     border-bottom: 5px solid;
     text-transform: uppercase;
 }
-.footer{
-    text-align:center;
+
+@media screen and (max-width: 1200px) {
+        .footer{
+            text-align:center;
+            padding: 10px 10px 10px 10px;
+            margin-top: 200px;
+            margin-bottom:0;
+        }
+    }
+.footer{text-align:center;
     padding: 10px 10px 10px 10px;
+    background-color:white;
+    margin-top: 20px;
 }
 .img3{
     width:20px;
